@@ -1,0 +1,15 @@
+GET http://localhost:3000/contacts
+
+###
+
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+  "first_name": "Watermelon",
+  "last_name": "Ripe",
+  "email": "watermelon@gmail.com",
+  "phone_number": "FALSE",
+  "latitude": 50,
+  "longitude": 45
+}
